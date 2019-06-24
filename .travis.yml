@@ -1,3 +1,13 @@
 language: python
+python:
+  - '3.5'
+  - '3.6'
+  - '3.7'
+before_install: echo "Starting the installation..."
+install: true
+before_script: echo "Starting script..."
 script: python test.py
+after_success: echo "Success!"
+after_failure: echo "Failed :("
+after_script: echo "Script finished."
 
