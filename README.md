@@ -2,6 +2,6 @@
 A test repository with absolutely nothing of value
 
 This is a shell script:
-```shell
+```shell script
 $ echo "Hello"
 ```
